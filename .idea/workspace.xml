@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5e10a0-b2b9-42cf-aceb-9d375a26549a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/teammemberallocations/src/Content.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teammemberallocations/src/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teammemberallocations/src/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/teammemberallocations/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teammemberallocations/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/teammemberallocations/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teammemberallocations/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/teammemberallocations/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teammemberallocations/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/teammemberallocations/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
