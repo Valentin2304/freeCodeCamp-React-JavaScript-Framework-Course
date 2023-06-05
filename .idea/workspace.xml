@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5e10a0-b2b9-42cf-aceb-9d375a26549a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/teammemberallocations/src/GroupedTeamMembers.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teammemberallocations/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/teammemberallocations/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teammemberallocations/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/teammemberallocations/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/teammemberallocations/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teammemberallocations/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/teammemberallocations/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/Employees.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/teammemberallocations/src/Employees.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/VALENTIN/Documents/GitHub/freeCodeCamp-React-JavaScript-Framework-Course&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/VALENTIN/Documents/GitHub/freeCodeCamp-React-JavaScript-Framework-Course",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.EditorConfig",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +57,7 @@
       <updated>1685858586691</updated>
       <workItem from="1685858587946" duration="744000" />
       <workItem from="1685868536150" duration="595000" />
-      <workItem from="1685947447167" duration="2136000" />
+      <workItem from="1685947447167" duration="4536000" />
     </task>
     <servers />
   </component>
