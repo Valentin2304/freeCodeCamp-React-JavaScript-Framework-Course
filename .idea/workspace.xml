@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b5e10a0-b2b9-42cf-aceb-9d375a26549a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8b5e10a0-b2b9-42cf-aceb-9d375a26549a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +33,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/VALENTIN/Documents/GitHub/freeCodeCamp-React-JavaScript-Framework-Course",
+    "last_opened_file_path": "C:/Users/VALENTIN/Documents/GitHub/JS_HackerRank_1month",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.sourceCode.EditorConfig",
     "vue.rearranger.settings.migration": "true"
@@ -51,7 +49,7 @@
       <updated>1685858586691</updated>
       <workItem from="1685858587946" duration="744000" />
       <workItem from="1685868536150" duration="595000" />
-      <workItem from="1685947447167" duration="6727000" />
+      <workItem from="1685947447167" duration="7171000" />
     </task>
     <servers />
   </component>

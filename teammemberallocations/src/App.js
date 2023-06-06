@@ -133,6 +133,7 @@ function App() {
                 <Route path="/GroupedTeamMembers" element={<GroupedTeamMembers/>}>
                 </Route>
             </Routes>
+            <Footer/>
         </Router>
 
     );
