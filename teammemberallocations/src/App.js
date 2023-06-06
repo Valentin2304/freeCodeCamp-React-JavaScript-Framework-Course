@@ -6,6 +6,8 @@ import Footer from "./Footer";
 import Employees from "./Employees";
 import {useState, useEffect} from "react";
 import GroupedTeamMembers from "./GroupedTeamMembers";
+import Nav from "./Nav";
+import NotFound from "./NotFound";
 
 function App() {
 
@@ -121,16 +123,21 @@ function App() {
     return (
 
         <Router>
+            <Nav/>
             <Header selectedTeam={selectedTeam}
                     teamMemberCount={employees.filter((employee) => employee.teamName === selectedTeam).length}/>
             <Routes>
                 <Route path="/" element={<Employees employees={employees}
-                                        selectedTeam={selectedTeam}
-                                        handleEmployeeCardClick={handleEmployeeCardClick}
-                                        handleTeamSelectionChange={handleTeamSelectionChange}
+                                                    selectedTeam={selectedTeam}
+                                                    handleEmployeeCardClick={handleEmployeeCardClick}
+                                                    handleTeamSelectionChange={handleTeamSelectionChange}
                 />}>
                 </Route>
-                <Route path="/GroupedTeamMembers" element={<GroupedTeamMembers/>}>
+                <Route path="/GroupedTeamMembers" element={<GroupedTeamMembers employees={employees}
+                                                                               selectedTeam={selectedTeam}
+                                                                               setTeam={setTeam}/>}>
+                </Route>
+                <Route path="*" element={<NotFound/>}>
                 </Route>
             </Routes>
             <Footer/>
