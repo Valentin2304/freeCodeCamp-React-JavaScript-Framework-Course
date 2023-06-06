@@ -124,14 +124,18 @@ function App() {
 
         <Router>
             <Nav/>
-            <Header selectedTeam={selectedTeam}
-                    teamMemberCount={employees.filter((employee) => employee.teamName === selectedTeam).length}/>
+
             <Routes>
-                <Route path="/" element={<Employees employees={employees}
-                                                    selectedTeam={selectedTeam}
-                                                    handleEmployeeCardClick={handleEmployeeCardClick}
-                                                    handleTeamSelectionChange={handleTeamSelectionChange}
-                />}>
+
+                <Route path="/" element={<div>
+                    <Header selectedTeam={selectedTeam} teamMemberCount={employees.filter((employee) => employee.teamName === selectedTeam).length}/>
+                    <Employees
+                        employees={employees}
+                        selectedTeam={selectedTeam}
+                        handleEmployeeCardClick={handleEmployeeCardClick}
+                        handleTeamSelectionChange={handleTeamSelectionChange}/>
+                </div>}>
+
                 </Route>
                 <Route path="/GroupedTeamMembers" element={<GroupedTeamMembers employees={employees}
                                                                                selectedTeam={selectedTeam}
