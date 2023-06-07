@@ -128,6 +128,7 @@ function App() {
             <Routes>
 
                 <Route path="/" element={<div>
+                    <h2>Team Member Allocation App</h2>
                     <Header selectedTeam={selectedTeam} teamMemberCount={employees.filter((employee) => employee.teamName === selectedTeam).length}/>
                     <Employees
                         employees={employees}
@@ -137,9 +138,14 @@ function App() {
                 </div>}>
 
                 </Route>
-                <Route path="/GroupedTeamMembers" element={<GroupedTeamMembers employees={employees}
-                                                                               selectedTeam={selectedTeam}
-                                                                               setTeam={setTeam}/>}>
+                <Route path="/GroupedTeamMembers" element={<div>
+                    <h2>Team Member Allocation App</h2>
+                    <GroupedTeamMembers employees={employees}
+                                        selectedTeam={selectedTeam}
+                                        setTeam={setTeam}/>
+
+
+                    </div>}>
                 </Route>
                 <Route path="*" element={<NotFound/>}>
                 </Route>
