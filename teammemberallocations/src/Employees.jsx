@@ -1,6 +1,4 @@
-import {useState} from 'react';
-import femaleProfile from './images/femaleProfile.jpg'
-import maleProfile from './images/maleProfile.jpg'
+
 import Teams from './Teams';
 import TeamMembers from "./TeamMembers";
 
