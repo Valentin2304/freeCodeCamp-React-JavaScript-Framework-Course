@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5e10a0-b2b9-42cf-aceb-9d375a26549a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/meals_application/src/context.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meals_application/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/meals_application/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
       <workItem from="1685868536150" duration="595000" />
       <workItem from="1685947447167" duration="7171000" />
       <workItem from="1686677134695" duration="1381000" />
-      <workItem from="1686723466078" duration="1220000" />
+      <workItem from="1686723466078" duration="5836000" />
     </task>
     <servers />
   </component>
