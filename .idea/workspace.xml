@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b5e10a0-b2b9-42cf-aceb-9d375a26549a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meals_application/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/meals_application/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meals_application/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/meals_application/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meals_application/src/components/Meals.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/meals_application/src/components/Meals.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meals_application/src/components/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/meals_application/src/components/Search.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meals_application/src/context.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/meals_application/src/context.jsx" afterDir="false" />
     </list>
