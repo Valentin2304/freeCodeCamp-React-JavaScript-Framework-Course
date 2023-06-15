@@ -1,5 +1,11 @@
+import {useGlobalContext} from '../context'
+
+
+
 const Meals = () => {
-    return <h1>Favorites Components</h1>
+    const context = useGlobalContext()
+
+    return <h1>Meals Components</h1>
 }
 
 export default Meals;
