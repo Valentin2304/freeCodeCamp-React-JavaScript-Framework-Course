@@ -78,17 +78,33 @@ const AppProvider = ({children}) => {
         }
         setLoading(false)
     }
+    const fetchAllMeals = async (url) =>{
+        setLoading(true)
+        try{
+            const {data} = await axios(allMealsUrl)
+            if (data.meals){
+                setMeals(data.meals)
+            }
+            else{
+                setMeals([])
+            }
+        }catch(error){
+            console.log(error.response)
+        }
+        setLoading(false)
+    }
 
     useEffect(()=>{
         fetchMeals(allMealsUrl)
     }, [])
+
 
     useEffect(()=>{
         if (!searchTerm) return
         fetchMeals(`${allMealsUrl}${searchTerm}`)
     }, [searchTerm])
 
-    return <AppContext.Provider value={{loading, meals, setSearchTerm, fetchRandomMeal, showModal, selectMeal, selectedMeal, closeModal, addToFavorites, removeFromFavorites, favorites}}>
+    return <AppContext.Provider value={{loading, meals, setSearchTerm, fetchRandomMeal, showModal, selectMeal, selectedMeal, closeModal, addToFavorites, removeFromFavorites, favorites, fetchMeals, fetchAllMeals}}>
 
         {children}
     </AppContext.Provider>

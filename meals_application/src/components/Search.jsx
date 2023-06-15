@@ -6,8 +6,13 @@ const Search = () => {
 
     const {setSearchTerm} = useGlobalContext()
 
-    const {fetchRandomMeal} = useGlobalContext()
+    const {fetchRandomMeal, fetchAllMeals} = useGlobalContext()
 
+
+    const handleHomeButton = () => {
+        setSearchTerm("")
+        fetchAllMeals()
+    }
     const handleChange = (e) => {
         setText(e.target.value)
     }
@@ -25,6 +30,7 @@ const Search = () => {
     }
 
     return <header className="search-container"><form onSubmit={handleSubmit}>
+        <button className='btn' onClick={handleHomeButton}>home</button>
         <input type="text" onChange={handleChange} value={text} placeholder='type favorite meal' className='form-input'/>
         <button type="submit" className="btn">search</button>
         <button type="submit" className="btn btn-hipster" onClick={handleRandomMeal}>Surprise Me!</button>
