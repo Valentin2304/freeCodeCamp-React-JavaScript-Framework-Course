@@ -6,7 +6,7 @@ import {StockDetailPage} from "./pages/StockDetailPage";
 
 function App() {
   return (
-    <main>
+    <main className="container">
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<StockOverviewPage/>}/>
