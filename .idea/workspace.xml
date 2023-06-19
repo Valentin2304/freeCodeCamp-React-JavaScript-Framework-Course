@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b5e10a0-b2b9-42cf-aceb-9d375a26549a" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/.idea/teammemberallocations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/.idea/teammemberallocations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/Employees.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/Employees.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/GroupedTeamMembers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/GroupedTeamMembers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/NotFound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/NotFound.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/TeamMemberCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/TeamMemberCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/TeamMembers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/TeamMembers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/Teams.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/Teams.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/images/femaleProfile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/images/femaleProfile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/images/maleProfile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/images/maleProfile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/reportWebVitals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teammemberallocations/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/team_member_allocations/src/setupTests.js" afterDir="false" />
-    </list>
+    <list default="true" id="8b5e10a0-b2b9-42cf-aceb-9d375a26549a" name="Changes" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +52,7 @@
       <workItem from="1685947447167" duration="7171000" />
       <workItem from="1686677134695" duration="1381000" />
       <workItem from="1686723466078" duration="5836000" />
+      <workItem from="1687165155567" duration="320000" />
     </task>
     <servers />
   </component>
