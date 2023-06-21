@@ -5,12 +5,12 @@ import finnHub from "../apis/finnHub";
 import {StockChart} from "../components/StockChart";
 
 const formatData = (data) => {
-    return data.t.map((el, index) => {return {x: el*1000, y: Math.floor(data.c[index])}})
+    return data.t.map((el, index) => {return {x: el*1000, y: data.c[index].toFixed(2)}})
 }
 
 export const StockDetailPage = () => {
     const {symbol} = useParams()
-    const [chartData, setChartData] = useState([])
+    const [chartData, setChartData] = useState()
     useEffect(()=>{
         const fetchData = async () => {
             const date = new Date()
@@ -25,14 +25,14 @@ export const StockDetailPage = () => {
             else{
                 oneDay = currentTime - 24*60*60
             }
-            const oneWeek = currentTime - 7*24*60
-            const oneYear = currentTime - 365*24*60
+            const oneWeek = currentTime - 7*24*60*60
+            const oneYear = currentTime - 365*24*60*60
             const responses = await Promise.all([finnHub.get("/stock/candle", {
                 params:{
                     symbol,
                     from: oneDay,
                     to: currentTime,
-                    resolution: 30
+                    resolution: 60
                 }
             }), finnHub.get("/stock/candle", {
                 params:{

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b5e10a0-b2b9-42cf-aceb-9d375a26549a" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading_king/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/trading_king/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading_king/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/trading_king/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading_king/src/components/StockChart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/trading_king/src/components/StockChart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading_king/src/pages/StockDetailPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/trading_king/src/pages/StockDetailPage.jsx" afterDir="false" />
     </list>
@@ -73,7 +71,7 @@
       <workItem from="1687305199865" duration="322000" />
       <workItem from="1687332418124" duration="7287000" />
       <workItem from="1687340816321" duration="1747000" />
-      <workItem from="1687362963793" duration="4775000" />
+      <workItem from="1687362963793" duration="7491000" />
     </task>
     <servers />
   </component>
