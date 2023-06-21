@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b5e10a0-b2b9-42cf-aceb-9d375a26549a" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/trading_king/src/apis/finnHub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trading_king/src/components/AutoComplete.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trading_king/src/components/StockList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trading_king/src/context/watchListContext.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading_king/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/trading_king/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading_king/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/trading_king/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trading_king/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/trading_king/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trading_king/src/pages/StockOverviewPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/trading_king/src/pages/StockOverviewPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading_king/src/components/AutoComplete.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/trading_king/src/components/AutoComplete.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading_king/src/components/StockList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/trading_king/src/components/StockList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trading_king/src/pages/StockDetailPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/trading_king/src/pages/StockDetailPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/VALENTIN/Documents/GitHub/freeCodeCamp-React-JavaScript-Framework-Course",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/VALENTIN/Documents/GitHub/freeCodeCamp-React-JavaScript-Framework-Course&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="StockList.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/trading_king/src/components/StockList.jsx" working-dir="$PROJECT_DIR$/trading_king/src/components">
       <method v="2" />
@@ -72,6 +72,11 @@
       <workItem from="1686677134695" duration="1381000" />
       <workItem from="1686723466078" duration="5836000" />
       <workItem from="1687165155567" duration="5236000" />
+      <workItem from="1687212698918" duration="3801000" />
+      <workItem from="1687305199865" duration="322000" />
+      <workItem from="1687332418124" duration="7287000" />
+      <workItem from="1687340816321" duration="1747000" />
+      <workItem from="1687362963793" duration="3113000" />
     </task>
     <servers />
   </component>
