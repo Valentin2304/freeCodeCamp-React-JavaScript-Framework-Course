@@ -60,5 +60,5 @@ export const StockDetailPage = () => {
         fetchData()
     }, [symbol])
 
-    return <div className="text-center fw-bold fs-5">{chartData && (<div><StockChart/></div>)}</div>
+    return <div className="text-center fw-bold fs-5">{chartData && (<div><StockChart chartData={chartData} symbol={symbol}/></div>)}</div>
 }
