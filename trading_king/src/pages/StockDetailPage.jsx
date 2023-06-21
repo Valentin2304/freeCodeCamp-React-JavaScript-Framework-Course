@@ -2,6 +2,7 @@ import {useParams} from 'react-router-dom'
 import {useEffect, useState} from "react";
 import axios from "axios";
 import finnHub from "../apis/finnHub";
+import {StockChart} from "../components/StockChart";
 
 const formatData = (data) => {
     return data.t.map((el, index) => {return {x: el*1000, y:data.c[index]}})
@@ -57,7 +58,7 @@ export const StockDetailPage = () => {
         }
 
         fetchData()
-    }, [])
+    }, [symbol])
 
-    return <div className="text-center fw-bold fs-5">StockDetailPage {symbol}</div>
+    return <div className="text-center fw-bold fs-5">{chartData && (<div><StockChart/></div>)}</div>
 }
