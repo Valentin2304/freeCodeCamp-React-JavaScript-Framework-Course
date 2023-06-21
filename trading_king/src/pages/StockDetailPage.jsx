@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import axios from "axios";
 import finnHub from "../apis/finnHub";
 import {StockChart} from "../components/StockChart";
+import {StockData} from "../components/StockData";
 
 const formatData = (data) => {
     return data.t.map((el, index) => {return {x: el*1000, y: data.c[index].toFixed(2)}})
@@ -60,5 +61,5 @@ export const StockDetailPage = () => {
         fetchData()
     }, [symbol])
 
-    return <div className="text-center fw-bold fs-5">{chartData && (<div><StockChart chartData={chartData} symbol={symbol}/></div>)}</div>
+    return <div className="text-center fw-bold fs-5">{chartData && (<div><StockChart chartData={chartData} symbol={symbol}/></div>)}<StockData symbol={symbol}/></div>
 }
